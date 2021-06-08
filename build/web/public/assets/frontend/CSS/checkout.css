@@ -1,0 +1,461 @@
+/*CSS CHECKOUT*/
+
+body {
+    padding-top: 0px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    display: inline;
+    font-size: 100%;
+}
+
+#page-wrapper {
+    margin-top: 0px;
+    margin-bottom: 100px;
+    border: 0px;
+    position: relative;
+    width: fit-content;
+}
+
+.headeratas {
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    padding: 8px;
+    line-height: 10px;
+}
+
+.headerkiri {
+    height: 120%;
+    width: 0;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    position: fixed;
+}
+  
+.headerkiri a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #999;
+    display: block;
+    transition: 0.3s;
+    font-family: "futura-bold", serif;
+    position: relative;
+}
+
+.headerkiri ul {
+    list-style-type: none;
+	margin: 0;
+	padding: 0;
+    overflow: hidden;
+}
+
+
+.headerkiri li a {
+    display: inline-block;
+    color: #999;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.clothing {
+    display: inline-block;
+}
+
+.clothing:hover .isiclothing {
+    display: block;
+}
+
+.isiclothing a:hover {
+    color: #fff;
+}
+
+.isiclothing {
+    position: absolute;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: white;
+}
+
+.isiclothing a {
+    color: #3c3c3c;
+}
+
+.isiclothing a:hover {
+    color: #232323;
+    background: #f3f3f3;
+}
+
+.headerkiri a:hover {
+    color: #f1f1f1;
+}
+
+.headerkiri .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+  
+@media screen and (max-height: 450px) {
+    .headerkiri {padding-top: 10px;}
+    .headerkiri a {font-size: 18px;}
+}
+
+.bar {
+    margin-left: 60px;
+    top: 60px;
+    position: relative;
+}
+
+.headertengah {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 60px;
+    margin-left: 330px;
+}
+
+.logokibo {
+    display: flex;
+    border: none;
+    position: relative;
+}
+
+.headerkanan ul {
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+    float: right;
+    margin-top: -180px;
+    margin-left: 870px;
+
+}
+
+.headerkanan ul li a {
+    font-size: 14px;
+    font-family: "futura-bold", serif;
+    padding: 10px 0 20px 20px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+    margin-left: 20px;
+    margin-top: 10px;
+    float: right;
+    display: relative;
+}
+
+/*product*/
+
+.container {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.container-img {
+    float: left;
+    width: 200px;
+}
+
+.kolom-img {
+    float: left;
+    width: 100%;
+    margin-bottom: 8px;
+    list-style-type: disc;
+    display: relative;
+}
+
+.kolom-img li {
+    list-style: none;
+    display: list-item;
+}
+
+.kolom-img .img1 {
+    margin-left: 20px;
+}
+
+.kolom-img .img2 {
+    margin-left: 350px;
+    margin-bottom: 1000px;
+    margin-top: -402px;
+}
+
+.kolom-img .img1 .img2 {
+    float: left;
+    width: calc(50% - 4px);
+    border: 0;
+    outline: 0;
+}
+
+.produk-actions {
+    right: 0;
+    z-index: 2;
+    float: left;
+    height: auto;
+    width: 30%;
+    min-width: 465px;
+    padding: 56px;
+    left: 550px;
+    top: 50px;
+}
+
+.harga-produk {
+    float: left;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.produk-features {
+    display: inline-block;
+    float: left;
+    width: 40%;
+}
+
+.details {
+    margin-top: 22px;
+}
+
+.nama-produk {
+    display: block;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-family: "futura-bold", serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.prices {
+    float: left;
+    width: 40%;
+    margin-top: 22px;
+    font-family: "futura-bold", serif;
+    text-align: right;
+}
+
+.prices .produk-price {
+    display: inline-block;
+    font-size: 18px;
+    color: black;
+}
+
+.produk-form {
+    float: left;
+    width: 80%;
+    margin-bottom: 24px;
+    font-family: "futura-bold", serif;
+    font-size: 12px;
+}
+
+.form-size {
+    float: inline-end;
+    color: black;
+    font-family: "futura-bold", serif;
+    height: auto;
+    font-size: 15px;
+    margin-bottom: 40px;
+    min-height: 42px;
+    cursor: pointer;
+}
+
+.form-size .selector {
+    position: relative;
+    z-index: 2;
+    height: auto;
+    width: 100%;
+    min-height: 44px;
+    margin-right: 70px;
+}
+
+.size {
+    height: 23px;
+    width: 205px;
+}
+
+.container-add-cart .add-cart {
+    float: left;
+    width: 100%;
+}
+
+.co-btn {
+    height: 42px;
+    font-family: "futura-bold", serif;
+    line-height: 42px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.25s;
+    outline: none;
+    color: white;
+    background-color: black;
+    border: 0;
+}
+
+.produk-form p {
+    padding-top: 10px;
+    color: #999;
+    text-decoration: none;
+    font-size: 10pt;
+    font-weight: bold;
+    font-family: 'gotham', arial;
+    cursor: pointer;
+    text-align: center;
+}
+
+/*footer*/
+
+.bagianbawah {
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    font-family: 'futura',serif;
+    font-size: 13px;
+    font-weight: normal;
+    color: rgb(68, 68, 68);
+}
+
+.footer-wrap {
+    max-width: 1400px;
+    margin-left: -600px;
+}
+
+.socialmedia {
+    background-color: rgb(209, 206, 206);
+    height: auto;
+    padding: 36px 0;
+    text-align: center;
+    position: relative;
+    top: 500px;
+}
+
+.container-text {
+    transition: all .5s ease .1s;
+    width: 750px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.baris {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: -10px;
+    margin-left: -10px;
+    box-sizing: border-box;
+}
+
+.sosmed {
+    padding: 0 10px 0 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+.sosmed span {
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sosmed a {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+    background-color: transparent;
+    left: 20px;
+}
+
+.sosmed i {
+    font-size: x-large;
+    height: auto;
+    width: 20px;
+    display: inline-block;
+    font-weight: 400;
+}
+
+.footer-link {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.747);
+    text-decoration: none;
+    margin-top: 580px;
+    line-height: 1.8;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    margin-left: 300px;
+}
+
+#kiri {
+    justify-content: space-around;
+    list-style: none;
+    float: left;
+    text-decoration: none;
+    color: black;
+}
+
+#kiri ul li a {
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+#kanan {
+    justify-content: space-around;
+    list-style: none;
+    float: left;
+    text-decoration: none;
+    color: black;
+}
+
+#kanan ul li a {
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+.aplikasi {
+    width: 70%;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.aplikasi h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+
+.aplikasi p {
+    margin: 5px 0 20px 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.bagianbawah2 {
+    justify-content: space-between;
+    padding: 20px 40px;
+    border-top: 1px solid #dedede;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 10px;
+}

@@ -1,0 +1,357 @@
+/*CSS SIGN IN & JOIN US*/
+
+/*SIGN IN*/
+body {
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-size: 100%;
+    text-align: center;
+    height: 800px;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    display: block;
+    box-sizing: border-box;
+    
+}
+
+.mid-signin {
+    width: 200%;
+    height: 100%;
+    display: block;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.mid-signin-left {
+    display: block;
+    min-height: 100%;
+    width: 50%;
+    transition: all linear .2s .2s;
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+    padding: 3% 4%;
+}
+
+.form-signin span {
+    margin: 10px 0;
+    display: block;
+    position: relative;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border: 1px solid #efefef;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.form-signin span i {
+    display: inline-block;
+    color: #999;
+}
+
+.form-signin span input {
+    background: none;
+    border: none;
+    width: 93%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.form-signin a {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    color: #999;
+    text-decoration: none;
+    border: none;
+}
+
+.showpassword {
+    font-size: 16px;
+    position: relative;
+}
+.selector{
+
+margin-left: 200px;
+}
+
+.buttonsignin {
+    background: #333;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: 'gotham', arial;
+    text-transform: uppercase;
+    display: block;
+    border: none;
+    width: 100%;
+    padding: 15px 0;
+    margin: 20px 0 10px 0;
+    border-radius: 2px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.forgetpass {
+    color: #000;
+    font-size: 12px;
+}
+
+.joinus {
+    color: #999;
+    text-decoration: none;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: 'gotham', arial;
+    cursor: pointer;
+}
+
+p {
+    font-size: 12pt;
+    font-family: 'gotham', arial;
+    text-decoration: none;
+    margin-left: 450px;
+    text-align: left;
+}
+
+/*JOIN US*/
+body {
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-size: 100%;
+    text-align: center;
+    height: 800px;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    display: block;
+    box-sizing: border-box;
+    
+}
+
+.mid-joinus {
+    width: 200%;
+    height: 100%;
+    display: block;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.mid-joinus-right {
+    display: block;
+    min-height: 100%;
+    width: 50%;
+    transition: all linear .2s .2s;
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+    padding: 3% 4%;
+}
+
+.form-joinus span {
+    margin: 10px 0;
+    display: block;
+    position: relative;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border: 1px solid #efefef;
+    border-radius: 2px;
+    overflow: hidden;
+    height: 60px;
+}
+
+.form-joinus span i {
+    display: inline-block;
+    color: #999;
+}
+
+.form-joinus span input {
+    background: none;
+    border: none;
+    width: 93%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.buttonjoinus {
+    background: #333;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: 'gotham', arial;
+    text-transform: uppercase;
+    display: block;
+    border: none;
+    width: 100%;
+    padding: 15px 0;
+    margin: 20px 0 10px 0;
+    border-radius: 2px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.back2signin {
+    color: #999;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: 'gotham', arial;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+}
+table.center {
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+  
+input[type=submit] {
+    background-color: #000000;
+    color: white;
+}
+
+.container {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+#message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+}
+  
+#message p {
+    padding: 10px 35px;
+    font-size: 18px;
+}
+  
+.valid {
+    color: green;
+}
+  
+.valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+}
+  
+.invalid {
+    color: red;
+}
+  
+.invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+}
+
+
+/*forgot pass*/
+body {
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-size: 100%;
+    text-align: center;
+    height: 800px;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    display: block;
+    box-sizing: border-box;
+    
+}
+
+.forgotpass {
+    width: 200%;
+    height: 100%;
+    display: block;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.mid-forgotpass {
+    display: block;
+    min-height: 100%;
+    width: 50%;
+    transition: all linear .2s .2s;
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+    padding: 3% 4%;
+}
+
+.form-forgotpass span {
+    margin: 10px 0;
+    display: block;
+    position: relative;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border: 1px solid #efefef;
+    border-radius: 2px;
+    overflow: hidden;
+    height: 60px;
+}
+
+.form-forgotpass span i {
+    display: inline-block;
+    color: #999;
+}
+
+.form-forgotpass span input {
+    background: none;
+    border: none;
+    width: 93%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.buttonforgot {
+    background: #333;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: 'gotham', arial;
+    text-transform: uppercase;
+    display: block;
+    border: none;
+    width: 100%;
+    padding: 15px 0;
+    margin: 20px 0 10px 0;
+    border-radius: 2px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.homepage {
+    color: #999;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: 'gotham', arial;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 35px;
+}

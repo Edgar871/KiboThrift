@@ -1,0 +1,18 @@
+SMAP
+ForgotPass_jsp.java
+JSP
+*S JSP
+*F
++ 0 ForgotPass.jsp
+views/ForgotPass.jsp
+*L
+5,23:44
+28:67,3
+29,3:70
+32:73,3
+33,3:76
+36:79,3
+37,3:82
+40:85,3
+41,22:88
+*E

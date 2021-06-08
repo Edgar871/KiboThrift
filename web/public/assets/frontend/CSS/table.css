@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 19, 2020, 7:01:57 PM
+    Author     : Edgar Hadhyra J
+*/
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td{
+    border: 1px solid lavenderblush;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(odd){
+    background-color: rgba(230, 230, 250, 0.5);
+}
+
+th{
+    border: 1px solid black;
+    background-color: black;
+    text-align: left;
+    padding: 8px;
+}
